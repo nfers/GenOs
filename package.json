@@ -1,0 +1,43 @@
+{
+   "name": "genos",
+   "version": "1.0.0",
+   "description": "",
+   "main": "src/app.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "rundev": "nodemon src/app.js",
+      "start": "ts-node src/index.ts"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nfers/genos.git"
+   },
+   "keywords": [],
+   "author": {
+      "email": "ncy.fers@gmail.com",
+      "name": "Nayara Ferreira"
+   },
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/nfers/genos/issues"
+   },
+   "homepage": "https://github.com/nfers/genos#readme",
+   "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "pg": "^8.5.1",
+      "reflect-metadata": "^0.1.10",
+      "sqlite3": "*",
+      "typeorm": "0.2.29"
+   },
+   "type": "module",
+   "devDependencies": {
+      "@types/express": "^4.17.9",
+      "@types/node": "^8.0.29",
+      "eslint": "^7.14.0",
+      "nodemon": "^2.0.6",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   }
+}
